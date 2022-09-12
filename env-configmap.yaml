@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: my-606716607201-bucket
+  AWS_PROFILE: microservice-user
+  AWS_REGION: us-east-1
+  JWT_SECRET: testing
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: myudacitydb.ckcloss52fwn.us-east-1.rds.amazonaws.com
+  URL: http://a344be263319f479e9dd157eecddf259-1618314236.us-east-1.elb.amazonaws.com:8100
+metadata:
+  name: env-config
